@@ -112,7 +112,7 @@ public class BookStoreTest {
         LOGGER.info("Get all the books from the bookStore");
         GetBooksResponse booksResponse = sendGetRequest("https://demoqa.com/BookStore/v1/Books", GetBooksResponse.class);
 
-        LOGGER.info("Select the fist book and add it to user collection");
+        LOGGER.info("Select the first book and add it to user collection");
         Isbn isbn = new Isbn();
         isbn.setIsbn(booksResponse.getBooks().get(0).getIsbn());
         PostBooksRequest booksRequest = new PostBooksRequest(accountResponse.getUserId(), List.of(isbn));
@@ -140,7 +140,7 @@ public class BookStoreTest {
         LOGGER.info("Get all the books from the bookStore");
         GetBooksResponse booksResponse = sendGetRequest("https://demoqa.com/BookStore/v1/Books", GetBooksResponse.class);
 
-        LOGGER.info("Select the fist book and add it to user collection");
+        LOGGER.info("Select the first book and add it to user collection");
         Isbn isbn = new Isbn();
         isbn.setIsbn(booksResponse.getBooks().get(0).getIsbn());
         PostBooksRequest booksRequest = new PostBooksRequest(accountResponse.getUserId(), List.of(isbn));
