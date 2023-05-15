@@ -2,6 +2,13 @@
 
 This project is a test automation framework for the book store application. The framework is written in Java using Selenium and TestNG
 
+Reccomended to use this project with JetBrains IntelliJ or Aqua. To clone this project use the following command:
+
+```bash 
+git clone https://github.com/MaMeLAV/BookStoreApplicationAT.git
+```
+
+
 To use these tests java 18 is required. 
 
 Tests are located under src/test/java/tests. 
