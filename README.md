@@ -13,6 +13,9 @@ To use these tests java 18 is required.
 
 Tests are located under src/test/java/tests. 
 
+![image](https://github.com/MaMeLAV/BookStoreApplicationAT/assets/129938008/5bb1f097-d326-4aeb-9a22-9ea3df32c6ed)
+
+
 
 Currently added tests are:
 
